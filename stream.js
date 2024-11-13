@@ -14,3 +14,4 @@ const writeStream = fs.createWriteStream('./docs/blog4.txt');
 //piping
 //piping only works when you work with readable and writeable file
 readStream.pipe(writeStream);
+
